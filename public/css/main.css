@@ -106,14 +106,6 @@
     margin: 45px;
 }
 
-.save-product {
-    color: white;
-    border: 1px double gray;
-    background: lightseagreen;
-    padding: 5px;
-    font-size: 15px;
-    margin: 5px 0px;
-}
 
 .js-product-form {
     color: #069;
@@ -126,8 +118,21 @@
 form#add input, form#add label {
     padding: 2px;
     width: 94%;
-    color: #069;
+    color: gray;
     font-size: 14px;
+}
+
+form#add input {
+    border: 1px solid #cccccc ;
+}
+
+.save-product {
+    color: white !important;
+    border: 1px double gray;
+    background: lightseagreen;
+    padding: 5px;
+    font-size: 15px;
+    margin: 5px 0px;
 }
 
 .p-actions {
