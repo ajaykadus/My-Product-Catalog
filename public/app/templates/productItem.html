@@ -1,0 +1,19 @@
+<div class="card-thumbnail">
+    <img src="<%= model.getImage() %>">
+    <span class="card-name"><%= model.get('name') %></span>
+</div>
+<div class="card-body">
+    <p title="" class="card-profile"><%= model.get('description') %> </p>
+    <ul class="product-list-group">
+        <li><p><span title="value"><%= model.get('value') %></span></p></li>
+    </ul>
+    <ul class="p-actions">
+        <li>
+            <a href="#/edit/<%=model.get('id') %>"class="js-edit-details"><span>Edit Details</span></a>
+        </li>
+        <li>
+            <a href="#/product/<%=model.get('id') %>" class="js-see-details"><span>See Details</span></a>
+        </li>
+    </ul>
+</div>
+

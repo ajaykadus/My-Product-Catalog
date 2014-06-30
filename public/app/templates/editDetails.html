@@ -1,0 +1,32 @@
+<div class="p-image">
+    <img src="<%= model.getImage() %>">
+</div>
+<div class="product-details">
+    <ul class="js-edit-product-details details">
+        <li><label>Name</label>
+            <input id="name" value="<%= model.get('name') %> " />
+        </li>
+        <li><label>Descriptions</label>
+            <input id="description" value="<%= model.get('description') %>" />
+        </li>
+        <li><label>Display Image</label>
+            <input id="image" value="<%= model.get('image') %>" />
+        </li>
+        <li><label>Value</label>
+            <input id="value" value="<%= model.get('value') %>" />
+        </li>
+        <li><label>Length</label>
+            <input id="length" value="<%= model.get('length') %>" />
+        </li>
+        <li><label>Width</label>
+            <input id="width" value="<%= model.get('width') %>" />
+        </li>
+        <li><label>Height</label>
+            <input id="height" value="<%= model.get('height') %>" />
+        </li>
+        <li><label>Weight</label>
+            <input id="weight" value="<%= model.get('weight') %>" />
+        </li>
+        </ul>
+    <button style="float: left; margin-left: 200px" class="save-product js-update-product">Update</button>
+</div>

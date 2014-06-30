@@ -1,0 +1,28 @@
+<div class="p-image">
+    <img src="<%= model.getImage() %>">
+</div>
+<div class="product-details">
+    <ul class="details">
+        <li><label>Name</label>
+            <span><%= model.get('name') %></span>
+        </li>
+        <li><label>Descriptions</label>
+            <span><%= model.get('descriptions') %></span>
+        </li>
+        <li><label>Value</label>
+            <span><%= model.get('value') %></span>
+        </li>
+        <li><label>Length</label>
+            <span><%= model.get('length') %></span>
+        </li>
+        <li><label>Width</label>
+            <span><%= model.get('width') %></span>
+        </li>
+        <li><label>Height</label>
+            <span><%= model.get('height') %></span>
+        </li>
+        <li><label>Weight</label>
+            <span><%= model.get('weight') %></span>
+        </li>
+        </ul>
+</div>

@@ -1,0 +1,212 @@
+
+.header {
+    border: 0;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 0px 25px;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 10px 15px 10px 28px;
+}
+
+.card-content {
+    list-style: none;
+    margin: 7px 0px 0px -40px;
+}
+
+.card-content .card {
+    border: 1px solid #ddd;
+    float: left;
+    width: 218px;
+    height: 325px;
+    margin: 7px;
+    position: relative
+}
+
+.add-product-section {
+    float: left;
+    width: 218px;
+    height: 325px;
+    margin: 7px 0px 0px 7px;
+}
+
+.card-content p {
+    color: #333;
+    margin: 0;
+    font-size: 13px
+}
+
+.card-content .card-thumbnail {
+    position: relative;
+    width: 218px;
+    height: 218px;
+    line-height: 215px;
+    text-align: center
+}
+
+.card-content .card-thumbnail img {
+    max-width: 100%;
+    max-height: 218px;
+    vertical-align: middle
+}
+
+.card-content .card-name {
+    display: inline-block;
+    color: #069;
+    font-size: 18px;
+    padding: 9px 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    line-height: 1;
+    text-align: left
+}
+
+.card-content .card-profile {
+    font-size: 13px;
+    padding: 7px 10px 14px;
+    line-height: 1.3;
+    min-height: 15px
+}
+
+.card-content .card-body {
+    padding: 3px
+}
+
+.card-content .product-list-group {
+    list-style: none;
+    background: #f3f3f3;
+}
+
+.card-content .product-list-group li {
+    padding: 10px 9px;
+    border-bottom: 1px dotted #ccc;
+    min-height: 16px;
+}
+
+.card-content .product-list-group li .ui-inline-icon {
+    margin-right: 7px
+}
+
+.card-content .product-list-group li i, .card-content .product-list-group li span {
+    vertical-align: middle
+}
+
+.card-content .product-list-group li:last-child {
+    border-bottom: none
+}
+
+.save-product {
+    color: white;
+    border: 1px double gray;
+    background: lightseagreen;
+    padding: 5px;
+    float: right;
+    font-size: 15px;
+}
+
+.add-btn {
+    color: white;
+    border: 1px double gray;
+    background: lightseagreen;
+    padding: 5px;
+    font-size: 15px;
+    margin: 45px;
+}
+
+.save-product {
+    color: white;
+    border: 1px double gray;
+    background: lightseagreen;
+    padding: 5px;
+    /* float: right; */
+    font-size: 15px;
+    margin: 5px 5px;
+}
+
+.js-product-form {
+    color: #069;
+    padding: 9px 12px;
+    background: #fff;
+    text-align: left
+
+}
+
+form#add input, form#add label {
+    padding: 5px;
+    width: 94%;
+}
+
+.p-actions {
+    list-style: none;
+    background: none repeat scroll 0 0 #f7f7f7;
+    overflow: hidden;
+    padding: 6px;
+}
+
+.p-actions li {
+    float: right;
+    margin: 0 12px 0 0;
+    padding: 0 5px 0 0;
+    line-height: 1.3;
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.p-actions li a {
+    cursor: pointer;
+}
+
+.p-actions li span {
+    vertical-align: middle;
+    color: gray;
+    text-decoration: underline;
+}
+
+.product-details {
+    border-left: 2px solid #f1f1f1;
+    overflow: hidden;
+    list-style: none;
+}
+
+.product-details li {
+    padding: 0 0 20px;
+    line-height: 1.3;
+    overflow: hidden;
+}
+
+.p-image {
+    float: left;
+}
+
+.product-details label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #666;
+    margin: 0 0 3px;
+    display: block;
+}
+
+.product-details .detaila span {
+    margin: 0 0 15px;
+    color: #333;
+    display: block;
+    word-wrap: break-word;
+}
+
+.home-btn {
+    color: #069;
+    text-decoration: underline;
+}
+
+.sort-products {
+    cursor: pointer;
+    color: white;
+    border: 1px double gray;
+    background: goldenrod;
+    padding: 0px 5px 0px 5px;
+    font-size: 15px;
+    float: right;
+
+}
