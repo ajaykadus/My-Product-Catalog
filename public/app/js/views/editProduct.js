@@ -31,7 +31,7 @@ define([
             Backbone.Events.trigger('changed_product', this.model);
             Backbone.history.navigate('home', false);
             $(".content, .js-sort, .js-add-product").show();
-            $(".js-product-form").hide();
+//            $(".js-product-form").hide();
             $(".js-product-details").html('');
         },
         render: function () {
