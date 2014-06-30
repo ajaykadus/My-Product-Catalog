@@ -25,8 +25,9 @@
 .add-product-section {
     float: left;
     width: 218px;
-    height: 325px;
+    height: 430px;
     margin: 7px 0px 0px 7px;
+    border: 1px dotted #ddd;
 }
 
 .card-content p {
@@ -96,15 +97,6 @@
     border-bottom: none
 }
 
-.save-product {
-    color: white;
-    border: 1px double gray;
-    background: lightseagreen;
-    padding: 5px;
-    float: right;
-    font-size: 15px;
-}
-
 .add-btn {
     color: white;
     border: 1px double gray;
@@ -119,22 +111,23 @@
     border: 1px double gray;
     background: lightseagreen;
     padding: 5px;
-    /* float: right; */
     font-size: 15px;
-    margin: 5px 5px;
+    margin: 5px 0px;
 }
 
 .js-product-form {
     color: #069;
-    padding: 9px 12px;
+    padding: 5px 12px;
     background: #fff;
     text-align: left
 
 }
 
 form#add input, form#add label {
-    padding: 5px;
+    padding: 2px;
     width: 94%;
+    color: #069;
+    font-size: 14px;
 }
 
 .p-actions {
@@ -188,7 +181,7 @@ form#add input, form#add label {
     display: block;
 }
 
-.product-details .detaila span {
+.product-details .detail span {
     margin: 0 0 15px;
     color: #333;
     display: block;

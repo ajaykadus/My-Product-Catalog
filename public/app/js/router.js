@@ -25,7 +25,6 @@ define([
             var productItem = new Product();
             productItem.fetch({url:'products/'+id}).success(function () {
                 var detailsView = new ProductDetails({model: productItem});
-
                 $(".content").hide();
                 $(".js-product-details").html(detailsView.render().el);
             });
