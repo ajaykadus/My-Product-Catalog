@@ -29,9 +29,9 @@ define([
 //            var updatedProduct = new Product(data);
 //            updatedProduct.set('id',this.model.get('id'),{silent: true});
             Backbone.Events.trigger('changed_product', this.model);
-            Backbone.history.navigate('home', false);
             $(".content, .js-sort, .js-add-product").show();
-//            $(".js-product-form").hide();
+            $(".js-product-form").hide();
+            Backbone.history.navigate('home', false);
             $(".js-product-details").html('');
         },
         render: function () {

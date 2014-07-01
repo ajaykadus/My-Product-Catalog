@@ -28,9 +28,10 @@ define(["lib/backbone",
             $("#add").children("input[type='text']").each(function (i, el) {
                 data[el.id] = $(el).val();
             });
-            var newProduct = new Product(data);
-            newProduct.save();
-            that.collection.add(newProduct);
+            var newProduct = new Product();
+            newProduct.save(data, {success: function() {
+                that.collection.add(newProduct);
+            }});
             $('#add').each(function () {
                 this.reset();
             });

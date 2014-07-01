@@ -24,7 +24,7 @@ define(
                 e.preventDefault();
                 var addView = new AddProduct({collection: this.collection});
                 this.$(".js-add-product").hide();
-                this.$(".js-product-form").append(addView.render().el);
+                this.$(".js-product-form").html(addView.render().el).show();
             },
             render: function () {
                 var that = this;
